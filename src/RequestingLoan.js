@@ -31,7 +31,7 @@ function handleShowModel(){
 }
 
     return (
-        <div> 
+        <div style={{display:"flex", alignItems:"center", justifyContent:"center", height:"100vh"}}> 
             <div className='container'> 
                 <form onSubmit={(e)=> e.preventDefault()}>
                     <h1>Requesting a Loan</h1>

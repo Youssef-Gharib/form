@@ -9,15 +9,13 @@ body{
  
 .container{
     width:60%; 
-    height: 500px;
-    margin: auto; 
-    margin-top: 20vh;
     text-align: center;
     padding:12px;
     border-radius: 20px;
-    background:linear-gradient(to right bottom, #374086, #10bf3f) ;
+    background:linear-gradient(to right bottom, #374086, #10bf3f,#bf104a) ;
     color: white;
     position: relative;
+
 }
 
 form{
@@ -28,6 +26,7 @@ form{
     border-radius: 15px;
     padding:15px;
     background-color: #000000;
+    gap: 30px;
 }
 
 form div {
@@ -41,6 +40,7 @@ form div {
    border-radius: 10px;
    outline: none;
    border: none;
+   margin-top: 8px;
    transition: 0.3s
 }
 input:hover,select:hover{
